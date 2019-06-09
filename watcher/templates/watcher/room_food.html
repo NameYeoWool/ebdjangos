@@ -1,0 +1,14 @@
+{% extends 'watcher/base.html' %}
+
+{% block content %}
+    <h1>New room</h1>
+    <form id="food_form" method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ formset.management_form }}
+        {% for form in formset %}
+            {{ form.as_p }}
+            <hr width = "100%" color = "blue" size = "3">
+        {% endfor %}
+        <button type="submit" class="save btn btn-default">Save</button>
+    </form>
+{% endblock %}

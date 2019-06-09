@@ -1,0 +1,32 @@
+{% extends 'watcher/base.html' %}
+
+{% block content %}
+    <div class="room">
+        {% if room.created_date %}
+            <div class="date">
+                {{ room.created_date }}
+            </div>
+        {% endif %}
+        <a class="btn btn-default" href="{% url 'room_edit' name=room.name %}">
+            <span class="glyphicon glyphicon-pencil"></span></a>
+        <a class="btn btn-default" href="{% url 'room_remove' name=room.name %}">
+            <span class="glyphicon glyphicon-remove"></span></a>
+        <a class="btn btn-default" href="{% url 'room_food' name=room.name %}">
+            <span class="glyphicon glyphicon-cutlery"></span></a>
+        <h1>{{ room.name }}</h1>
+        <p>{{ room.notice|linebreaksbr }}</p>
+
+        <!--check it's empty-->
+        {% if foods.all %}
+            {% for food in foods %}
+            <div class="food">
+                <p>
+                    foodName : {{ food.foodName }} <br/>
+                    rank : {{ food.rank }}
+                </p>
+            </div>
+            {% endfor %}
+        {% endif %}
+
+    </div>
+{% endblock %}

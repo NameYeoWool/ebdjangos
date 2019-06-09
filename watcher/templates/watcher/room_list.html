@@ -1,0 +1,12 @@
+{% extends 'watcher/base.html' %}
+{% block content %}
+    {% for room in rooms %}
+        <div class="room">
+            <div class="date">
+                <p>created: {{ room.created_date }}</p>
+            </div>
+            <h1><a href="{% url 'room_detail' name=room.name %}">{{ room.name }}</a></h1>
+            <p>{{ room.notice|linebreaksbr }}</p>
+        </div>
+    {% endfor %}
+{% endblock %}
