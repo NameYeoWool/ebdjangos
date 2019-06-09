@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="590db63d-5196-4acc-baad-a69939004525" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/watcher/migrations/0002_auto_20190610_0205.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/watcher/migrations/0003_auto_20190610_0209.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebdjangos/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ebdjangos/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watcher/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/watcher/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watcher/migrations/0002_auto_20190610_0205.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/watcher/migrations/0003_auto_20190610_0209.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/watcher/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/watcher/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watcher/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/watcher/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,13 +41,14 @@
           <entry key="PNG" value="1" />
           <entry key="config" value="9" />
           <entry key="css" value="1" />
-          <entry key="gitignore" value="8" />
+          <entry key="gitignore" value="9" />
           <entry key="html" value="30" />
           <entry key="jpg" value="11" />
           <entry key="json" value="6" />
           <entry key="log" value="5" />
           <entry key="log_seatInfo" value="4" />
           <entry key="py" value="121" />
+          <entry key="sqlite3" value="1" />
           <entry key="txt" value="6" />
           <entry key="yml" value="1" />
         </counts>
@@ -51,7 +59,7 @@
           <entry key="HTML" value="30" />
           <entry key="Image" value="12" />
           <entry key="JSON" value="6" />
-          <entry key="PLAIN_TEXT" value="32" />
+          <entry key="PLAIN_TEXT" value="34" />
           <entry key="Python" value="121" />
           <entry key="YAML" value="1" />
         </counts>
@@ -63,16 +71,16 @@
           <entry key="gitignore" value="44" />
           <entry key="html" value="356" />
           <entry key="json" value="44" />
-          <entry key="py" value="10738" />
-          <entry key="txt" value="758" />
+          <entry key="py" value="10791" />
+          <entry key="txt" value="761" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="356" />
           <entry key="JSON" value="44" />
-          <entry key="PLAIN_TEXT" value="845" />
-          <entry key="Python" value="10738" />
+          <entry key="PLAIN_TEXT" value="848" />
+          <entry key="Python" value="10791" />
         </counts>
       </usages-collector>
     </session>
@@ -96,16 +104,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/watcher/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="54" column="7" lean-forward="true" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
+            <state relative-caret-position="1520">
+              <caret line="80" column="20" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
-                <marker date="1560100127805" expanded="true" signature="1621:2322" ph="..." />
-                <marker date="1560100127805" expanded="true" signature="2352:2987" ph="..." />
-                <marker date="1560100127805" expanded="true" signature="3016:3144" ph="..." />
-                <marker date="1560100127805" expanded="true" signature="3173:3647" ph="..." />
-                <marker date="1560100127805" expanded="true" signature="3685:3690" ph="..." />
-                <marker date="1560100127805" expanded="true" signature="3685:4058" ph="..." />
+                <marker date="1560101443863" expanded="true" signature="1621:2311" ph="..." />
+                <marker date="1560101443863" expanded="true" signature="2341:2971" ph="..." />
+                <marker date="1560101443863" expanded="true" signature="3000:3128" ph="..." />
+                <marker date="1560101443863" expanded="true" signature="3157:3631" ph="..." />
+                <marker date="1560101443863" expanded="true" signature="3669:3674" ph="..." />
+                <marker date="1560101443863" expanded="true" signature="3669:4042" ph="..." />
               </folding>
             </state>
           </provider>
@@ -120,19 +128,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ebdjangos/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
+              <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/watcher/migrations/0002_auto_20190610_0205.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-167" />
           </provider>
         </entry>
       </file>
@@ -153,8 +154,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/watcher/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="69" column="32" lean-forward="true" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
+            <state relative-caret-position="270">
+              <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -228,9 +238,9 @@
         <option value="$PROJECT_DIR$/.ebextensions/db-migrate.config" />
         <option value="$PROJECT_DIR$/ebdjangos/urls.py" />
         <option value="$PROJECT_DIR$/watcher/urls.py" />
+        <option value="$PROJECT_DIR$/ebdjangos/settings.py" />
         <option value="$PROJECT_DIR$/watcher/models.py" />
         <option value="$PROJECT_DIR$/watcher/views.py" />
-        <option value="$PROJECT_DIR$/ebdjangos/settings.py" />
       </list>
     </option>
   </component>
@@ -566,11 +576,19 @@
       <option name="project" value="LOCAL" />
       <updated>1560100204390</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="add">
+      <created>1560100924430</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1560100924430</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24801272" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -598,7 +616,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="Initial commit" />
     <MESSAGE value="image rescale" />
     <MESSAGE value="testing pc food images" />
     <MESSAGE value="delete the secrets.json and make commit" />
@@ -623,7 +640,8 @@
     <MESSAGE value="change setting to false" />
     <MESSAGE value="rename coment Model" />
     <MESSAGE value="off to false" />
-    <option name="LAST_COMMIT_MESSAGE" value="off to false" />
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/requiremnets.txt" />
@@ -761,13 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/watcher/templates/watcher/room_detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -829,33 +840,47 @@
         <state relative-caret-position="-167" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/watcher/models.py">
+    <entry file="file://$PROJECT_DIR$/ebdjangos/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="69" column="32" lean-forward="true" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
+        <state relative-caret-position="323">
+          <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/watcher/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="54" column="7" lean-forward="true" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
+        <state relative-caret-position="1520">
+          <caret line="80" column="20" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
           <folding>
             <element signature="e#0#54#0" expanded="true" />
-            <marker date="1560100127805" expanded="true" signature="1621:2322" ph="..." />
-            <marker date="1560100127805" expanded="true" signature="2352:2987" ph="..." />
-            <marker date="1560100127805" expanded="true" signature="3016:3144" ph="..." />
-            <marker date="1560100127805" expanded="true" signature="3173:3647" ph="..." />
-            <marker date="1560100127805" expanded="true" signature="3685:3690" ph="..." />
-            <marker date="1560100127805" expanded="true" signature="3685:4058" ph="..." />
+            <marker date="1560101443863" expanded="true" signature="1621:2311" ph="..." />
+            <marker date="1560101443863" expanded="true" signature="2341:2971" ph="..." />
+            <marker date="1560101443863" expanded="true" signature="3000:3128" ph="..." />
+            <marker date="1560101443863" expanded="true" signature="3157:3631" ph="..." />
+            <marker date="1560101443863" expanded="true" signature="3669:3674" ph="..." />
+            <marker date="1560101443863" expanded="true" signature="3669:4042" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ebdjangos/settings.py">
+    <entry file="file://$PROJECT_DIR$/watcher/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
+        <state relative-caret-position="270">
+          <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.sqlite3">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>

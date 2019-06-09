@@ -246,3 +246,9 @@
 [09/Jun/2019 21:10:39] DEBUG [watcher:336] room_list Method : GET 
 [09/Jun/2019 21:10:43] DEBUG [watcher:308] room_detail Method : GET , PcName : 10 
 [10/Jun/2019 01:11:19] DEBUG [watcher:368] room_list Method : GET 
+[10/Jun/2019 02:32:12] DEBUG [watcher:363] room_list Method : GET 
+[10/Jun/2019 02:32:15] DEBUG [watcher:335] room_detail Method : GET , PcName : 10 
+[10/Jun/2019 02:36:34] DEBUG [watcher:363] room_list Method : GET 
+[10/Jun/2019 02:38:35] DEBUG [watcher:363] room_list Method : GET 
+[10/Jun/2019 02:38:45] DEBUG [watcher:363] room_list Method : GET 
+[10/Jun/2019 02:38:49] DEBUG [watcher:363] room_list Method : GET 
