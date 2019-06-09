@@ -41,7 +41,7 @@ SECRET_KEY = "kg&%v4_+c^t(20y5v*jv6$nh@7)pdd4ol#y%-mx96@rxk=(uhy"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-OFF = False
+OFF = True
 
 ALLOWED_HOSTS = ['*','django-env.ap-northeast-2.elasticbeanstalk.com']
 

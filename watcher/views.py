@@ -54,7 +54,7 @@ def review_new(request):
         content = request.POST.get('content')
         rating = int(request.POST.get('rating'))
 
-        coment = Coment(room = room, title=title,star=rating,content=content)
+        coment = Coment(room = room, coment_title=title,star=rating,content=content)
         coment.save()
 
         if cnt_coment == 0:
@@ -85,7 +85,7 @@ def review_list(request,name):
         res['cnt_all']= len(coments)
         for coment in coments:
             temp = {
-                "title":coment.title,
+                "title":coment.coment_title,
                 "rating": coment.star,
                 "time": coment.created_date,
                 "content":coment.content,
