@@ -66,6 +66,8 @@ def review_new(request):
 
         return HttpResponse("ok")
 
+    return HttpResponse("not post")
+
 
 def review_list(request,name):
     room = get_object_or_404(Room,name=name)
